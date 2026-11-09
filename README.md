@@ -29,7 +29,7 @@ The model was restructured from operational source files into a Kimball galaxy s
 * **`fact_inventory`**: Monthly stock snapshots unpivoted from source format.
 * **`fact_campaign_spend`**: Daily marketing expenditure, impressions, and clicks.
 * **`fact_sales_target`**: Monthly revenue budget targets.
-* **`fact_promotiona_coverage`**: Factless bridge table mapping promotional campaigns to covered product SKUs.
+* **`fact_promotional_coverage`**: Factless bridge table mapping promotional campaigns to covered product SKUs.
 
 ### Dedicated Measures Table
 * **`_measures`**: Central repository for all DAX calculations organized into structured display folders.
