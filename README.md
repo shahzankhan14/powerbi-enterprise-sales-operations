@@ -46,13 +46,16 @@ The model was restructured from operational source files into a Kimball galaxy s
 ## 📊 Dashboard Suite Highlights
 
 * **Page 1: Executive Sales Overview**
+  ![Executive Sales Dashboard](./Executive%20Sales%20%26%20Performance%20Overview.png)
   * Tracks total sales ($526.64K), target achievement %, order volume (80 orders), and gross margin % (36.9%).
   * Compares shipping vs. billing locations using DAX `USERELATIONSHIP`.
 * **Page 2: Operations & Cash Lifecycle**
+  ![Operations Dashboard](./Operations%20%26%20Cash%20Lifecycle.png)
   * Monitors fulfillment lead times (2.8 days order-to-ship, 5.7 days ship-to-deliver).
   * Evaluates regional delivery times against a 7-day SLA benchmark.
   * Identifies 20 unpaid orders accounting for $78.4K in exposed receivables.
 * **Page 3: Marketing Performance & Campaign Analysis**
+  ![Marketing Dashboard](./Marketing%20Performance%20%26%20Engagement.png)
   * Analyzes marketing spend ($78.84K) across 6 major campaigns against an $81K planned budget (97.33% utilization).
   * Evaluates channel efficiency across 224K clicks with CTR and CPC metrics.
 
